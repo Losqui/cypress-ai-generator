@@ -184,14 +184,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Evento de clique do botão "Cancelar"
-    if (cancelarButton) {
+   /* if (cancelarButton) {
         cancelarButton.addEventListener('click', () => {
             limparFormulario();
             modoEdicao = false;
             usuarioEditandoId = null;
             cadastroButton.textContent = 'Cadastrar';
         });
-    }
+    }*/
 
     // Evento de submit do formulário de login
     if (loginForm) {
